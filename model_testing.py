@@ -48,7 +48,7 @@ model = load(modelPath)
 y_predict=model.predict(X)
 
 
-print('\nОшибка на тестовых данных')
+print('\nResults')
 print('MSE: %.1f' % mse(y,y_predict))
 print('RMSE: %.1f' % mse(y,y_predict,squared=False))
 print('R2 : %.4f' %  r2_score(y,y_predict))
