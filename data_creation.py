@@ -1,4 +1,3 @@
-import wget
 import pandas as pd
 import os
 import datetime
@@ -19,13 +18,6 @@ try:
   os.mkdir('data')
 except FileExistsError:
   print("...")
-  
-#dataFName = 'data_' + datetime.datetime.now().strftime("%d-%m-%y_%H-%M-%S") 
-#targetFName = 'target_' + datetime.datetime.now().strftime("%d-%m-%y_%H-%M-%S")
-
-#dataF = wget.download(urls[0], os.path.join('data',f'{dataFName}.csv')) 
-#targetF = wget.download(urls[1], os.path.join('data',f'{targetFName}.csv'))
-#print('\nFiles downloaded:', dataF, targetF)
 
 data = pd.read_csv(urls[0])
 target = pd.read_csv(urls[1])
