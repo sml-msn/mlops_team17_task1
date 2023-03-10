@@ -24,7 +24,7 @@ target = pd.read_csv(urls[1])
 newData = data.merge(target, how='inner', on='index')
 
 trainDataFName = 'trainData_' + datetime.datetime.now().strftime("%d-%m-%y_%H-%M-%S") 
-newData.to_csv(os.path.join('data',f'{trainDataFName}.csv'))
+newData.to_csv(os.path.join('data',f'{trainDataFName}.csv'), index=False)
 print('File created:', os.path.join('data',f'{trainDataFName}.csv'))
 
 with open('buffer.txt', 'w+') as f:
