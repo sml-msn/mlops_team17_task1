@@ -10,7 +10,7 @@ with open('buffer.txt', 'r') as f:
   trainDataPath = f.readlines()[0]
 
 print(trainDataPath)
-trn = pd.read_csv('data/trainData.csv')
+trn = pd.read_csv(trainDataPath)
 
 cat_columns = []
 num_columns = []
