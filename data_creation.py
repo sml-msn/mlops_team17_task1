@@ -19,7 +19,7 @@ try:
 except FileExistsError:
   print("...")
 
-data = pd.read_csv(urls[0])
+data = pd.read_csv(urls[0], encoding='latin-1')
 target = pd.read_csv(urls[1])
 newData = data.merge(target, how='inner', on='index')
 
