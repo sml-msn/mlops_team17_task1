@@ -19,8 +19,8 @@ try:
 except FileExistsError:
   print("...")
 
-data = pd.read_csv(urls[0], verify=False)
-target = pd.read_csv(urls[1], verify=False)
+data = pd.read_csv(urls[0], storage_options={'verify': False})
+target = pd.read_csv(urls[1], storage_options={'verify': False})
 newData = data.merge(target, how='inner', on='index')
 
 trainDataFName = 'trainData_' + datetime.datetime.now().strftime("%d-%m-%y_%H-%M-%S") 
