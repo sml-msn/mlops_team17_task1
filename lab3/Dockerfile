@@ -4,5 +4,6 @@ WORKDIR /app
 COPY requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
 COPY . .
+RUN echo "Hello!"
 RUN chmod +x pipeline.sh
 RUN ./pipeline.sh
