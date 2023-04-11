@@ -16,4 +16,12 @@
 
 Всего проводится 2 цикла (2 набора data и target).
 "Общение" происходит через буферные файлы (в конце удаляются).
-Запускается через pipeline.sh. Нужно прописать chmod +x pipeline.sh
+Запускается через pipeline.sh.
+
+
+### Docker file
+![Docker file](lab3/img/Screenshot_2023-04-10_at_19-39-04_mlops_team17_task1_lab3_at_main__sml-msn_mlops_team17_task1.png)
+### Сборка в Jenkins
+![Сборка в Jenkins](lab3/img/Screenshot_2023-04-10_at_19-38-23_usingDocker_Config_Jenkins.png)
+### Вывод на консоль
+![Вывод на консоль](lab3/img/Screenshot_2023-04-10_at_19-37-31_usingDocker_7_Console_Jenkins.png)
