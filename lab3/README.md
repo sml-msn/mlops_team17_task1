@@ -20,8 +20,8 @@
 
 
 ### Docker file
-![Docker file](lab3/img/Screenshot_2023-04-10_at_19-39-04_mlops_team17_task1_lab3_at_main__sml-msn_mlops_team17_task1.png)
+![Docker file](/lab3/img/Screenshot_2023-04-10_at_19-39-04_mlops_team17_task1_lab3_at_main__sml-msn_mlops_team17_task1.png)
 ### Сборка в Jenkins
-![Сборка в Jenkins](lab3/img/Screenshot_2023-04-10_at_19-38-23_usingDocker_Config_Jenkins.png)
+![Сборка в Jenkins](/lab3/img/Screenshot_2023-04-10_at_19-38-23_usingDocker_Config_Jenkins.png)
 ### Вывод на консоль
-![Вывод на консоль](lab3/img/Screenshot_2023-04-10_at_19-37-31_usingDocker_7_Console_Jenkins.png)
+![Вывод на консоль](/lab3/img/Screenshot_2023-04-10_at_19-37-31_usingDocker_7_Console_Jenkins.png)
